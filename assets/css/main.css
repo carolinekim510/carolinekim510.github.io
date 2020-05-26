@@ -413,6 +413,12 @@ input, select, textarea {
 		animation-iteration-count: 1;
 	}
 
+	.inside-pg {
+		width: 75%;
+		margin: 100px auto;
+	}
+
+
 	/* Navbar section */
 
 	.logo {
@@ -477,6 +483,19 @@ input, select, textarea {
 	.nav div.main_list ul li a:hover {
 		color: #00E676;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	/* Home section */
@@ -3419,6 +3438,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		height: 100vh;
 	}
 
 		#header a {
