@@ -16,6 +16,34 @@
 
 		<!-- Header -->
 			<section id="header">
+
+				<!-- Navigation-->
+
+				<nav class="nav">
+					<div class="container">
+						<div class="logo">
+							<a href="#" class="scrolly">
+								<img src="images/ck.png">
+							</a>
+						</div>
+						<div id="mainListDiv" class="main_list">
+							<ul class="navlinks">
+								<li><a href="#one" class="scrolly">About</a></li>
+								<li><a href="#two" class="scrolly">Skills</a></li>
+								<li><a href="#four" class="scrolly">Projects</a></li>
+								<li><a href="#five" class="scrolly">Contact</a></li>
+							</ul>
+						</div>
+						<span class="navTrigger">
+						<i></i>
+						<i></i>
+						<i></i>
+					</span>
+					</div>
+				</nav>
+
+
+
 				<div class="inner main">
 					<h1 class="heading01"><strong>Hi, I'm Caroline ;)</strong><br></h1>
 					<p class="heading02">I develop web and application.<br>Innovation is my passion.</p>
@@ -24,6 +52,7 @@
 						</ul>
 				</div>
 			</section>
+
 
 
 		<!-- About Me -->
@@ -130,6 +159,17 @@
 						</div>
 					</div>
 				</div>
+				<div class="container">
+					Built applications<br>
+					git hub1<br>
+					git hub1<br>
+					git hub1<br>
+					git hub1<br>
+					git hub1<br>
+					git hub1<br>
+					git hub1<br>
+					git hub1<br>
+				</div>
 			</section>
 
 		<!-- Contact ME -->
@@ -167,5 +207,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		<script>
+			$(window).scroll(function() {
+				if ($(document).scrollTop() > 50) {
+					$('.nav').addClass('affix');
+					console.log("OK");
+				} else {
+					$('.nav').removeClass('affix');
+				}
+			});
+		</script>
+
+
 	</body>
 </html>
+
