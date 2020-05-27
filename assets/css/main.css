@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -415,8 +411,69 @@ input, select, textarea {
 
 	.inside-pg {
 		width: 75%;
-		margin: 100px auto;
+		margin: 65px auto 95px;
 	}
+
+	.app_portfolio {
+		float: left;
+		width: 33.3%;
+		padding: 0 0 0 0 !important;
+	}
+
+	.app_portfolio1 {
+		float: left;
+		width: 30%;
+		margin: 0 0 30px 40px;
+	}
+
+
+	.app_portfolio2 {
+		float: left;
+		padding: 0 0 0 0 !important;
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+	.app1 {
+		text-align: right;
+		padding-right: 40px !important;
+	}
+
+	.app2 {
+		text-align: left;
+	}
+
+	.lang {
+		font-size: small;
+		line-height: 20px;
+		color: #39324b;
+		border-color: #dab9ac;
+		border-width: 2px;
+		border-style: solid;
+		border-radius: 7%;
+		padding: 0px 8px 0px 8px;
+		display: initial;
+	}
+
+	.application_lists, .app_li {
+		list-style: none;
+		padding: 0;
+		font-size: medium;
+	}
+
+	.app_icon:before {
+		padding: 0 8px 0 35px;
+		font-size: 15px !important;
+		top: 1px;
+	}
+
+	.inside-list {
+		line-height: 17px;
+		margin-top: 8px;
+	}
+
+
+
 
 
 	/* Navbar section */
@@ -475,7 +532,7 @@ input, select, textarea {
 
 	.nav div.main_list ul li a {
 		text-decoration: none;
-		/*color: #fff;*/
+		/*color: #fff !important;*/
 		line-height: 65px;
 		font-size: 1.4rem;
 	}
@@ -789,11 +846,15 @@ input, select, textarea {
 		}
 	}
 
-	.hideme {
-		opacity:0;
+	.fade-in {
+		opacity: 0;
+		transition: opacity 250ms ease-in;
+		margin-bottom: 100px;
 	}
 
-
+	.fade-in.appear {
+		opacity: 1;
+	}
 
 
 
@@ -2547,7 +2608,8 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 1em 0;
+		margin: auto;
+		width: 100%;
 	}
 
 		header.major:after {
@@ -3226,7 +3288,7 @@ input, select, textarea {
 		line-height: 2.75em;
 		padding: 0 2em;
 		text-align: center;
-		text-decoration: none;
+		text-decoration: none !important;
 		text-indent: 0.125em;
 		text-transform: uppercase;
 		white-space: nowrap;
